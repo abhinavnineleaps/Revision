@@ -2,9 +2,10 @@ package com.example.Revision.result.repository;
 
 import com.example.Revision.result.model.StudentModel;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
+@Repository
 public interface StudentRepository extends CrudRepository<StudentModel,Integer> {
 
     // YOU CAN SEE ALL THESE FUNCTION FROM THE CRUD REPOSITORY BY CLICKING WITH CONTROL.
